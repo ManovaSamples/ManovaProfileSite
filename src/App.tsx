@@ -24,7 +24,7 @@ import {
   MessageSquare
 } from "lucide-react";
 
-const RESUME_URL = "/Manova_Chandramohan_Resume.pdf";
+const RESUME_URL = "public/Manova_Chandramohan_Resume.pdf";
 
 const EXPERIENCE = [
   {
