@@ -24,7 +24,7 @@ import {
   MessageSquare
 } from "lucide-react";
 
-const RESUME_URL = "public/Manova_Chandramohan_Resume.pdf";
+const RESUME_URL = "/Manova_Chandramohan_Resume.pdf";
 
 const EXPERIENCE = [
   {
@@ -382,7 +382,7 @@ export default function App() {
               </a>
               <a 
                 href={RESUME_URL} 
-                download="public/Manova_Chandramohan_Resume.pdf"
+                download="Manova_Chandramohan_Resume.pdf"
                 className="flex-1 md:flex-none flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-orange-500 text-white hover:bg-orange-600 transition-colors font-medium shadow-lg shadow-orange-500/20"
               >
                 <Download className="w-4 h-4" /> Download
